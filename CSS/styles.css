@@ -2,3 +2,9 @@ body {
     background-color: cornsilk;
     color: darkblue;
 }
+
+header{
+    background-color: aquamarine;
+}
+
+/* Classe Atribuída para a div que vai receber o logotipo */
