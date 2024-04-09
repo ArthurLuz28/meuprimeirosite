@@ -7,4 +7,22 @@ header{
     background-color: aquamarine;
 }
 
-/* Classe Atribuída para a div que vai receber o logotipo */
+.logo{
+    background-color: burlywood;
+}
+
+nav{
+    background-color: chocolate;
+}
+
+main{
+    background-color: greenyellow;
+}
+
+section{
+    background-color: cornflowerblue;
+}
+
+footer{
+    background-color: darkslateblue;
+}
