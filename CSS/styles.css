@@ -1,33 +1,36 @@
 body {
-    background-color: cornsilk;
-    color: darkblue;
+    background-image: url(../img/jjkfundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal;
 }
 
 header{
-    background-color: aquamarine;
+    background-color: darkgreen;
     padding: 3%;
 }
 
 .logo{
-    background-color: burlywood;
+    background-color: darkgoldenrod;
 }
 
 nav{
-    background-color: chocolate;
+    background-color: darkcyan;
 }
 
 main{
-    background-color: greenyellow;
+    background-color:white;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: cornflowerblue;
+    background-color: white;
 }
 
 footer{
@@ -44,14 +47,53 @@ footer{
 }
 
 h1{
-    font-size: 200%;
+    font-size: 2em;
+    padding: 3%;
+}
+
+h2{
+    font-size: 1.5em;
     padding: 3%;
 }
 
 .titulo{
-    background-color: greenyellow;
+    background-color: darkblue;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
 }
 
-h1,h2{
+.titulos{
     line-height: 3;
+    text-align: center;
+    font-weight: bold;
 }
+
+p{
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+.logojjk{
+    width: 50%;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.colunared{
+    background-color: red;
+    color: white;
+}
+
+td{
+    padding: 1%;
+    font-size: 125%;
+    font-weight: bold;
+    border-right: 1px solid black;
+}
+
