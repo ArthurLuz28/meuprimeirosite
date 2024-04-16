@@ -1,6 +1,9 @@
 body {
     background-color: cornsilk;
     color: darkblue;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header{
@@ -47,4 +50,8 @@ h1{
 
 .titulo{
     background-color: greenyellow;
+}
+
+h1,h2{
+    line-height: 3;
 }
