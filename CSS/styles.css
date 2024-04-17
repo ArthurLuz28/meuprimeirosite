@@ -61,6 +61,7 @@ h2{
     line-height: 3;
     text-align: center;
     font-weight: bold;
+    color: white;
 }
 
 .titulos{
@@ -93,7 +94,13 @@ table{
 td{
     padding: 1%;
     font-size: 125%;
-    font-weight: bold;
+    font-weight: normal;
     border-right: 1px solid black;
+    text-align: left;
+    width: 48%;
+    vertical-align: top;
 }
 
+.tenshadows{
+    width: 50%;
+}
