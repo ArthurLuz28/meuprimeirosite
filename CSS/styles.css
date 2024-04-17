@@ -16,6 +16,7 @@ header{
 
 .logo{
     background-color: darkgoldenrod;
+    text-align: center;
 }
 
 nav{
@@ -89,6 +90,7 @@ table{
 .colunared{
     background-color: red;
     color: white;
+    text-align: center;
 }
 
 td{
