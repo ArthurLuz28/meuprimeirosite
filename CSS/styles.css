@@ -98,6 +98,7 @@ td{
     font-size: 125%;
     font-weight: normal;
     border-right: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: left;
     width: 48%;
     vertical-align: top;
@@ -106,3 +107,4 @@ td{
 img{
     width: 50%;
 }
+
