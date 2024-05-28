@@ -139,3 +139,9 @@ a{
 .linksite{
     color: black;
 }
+
+.esquerda{
+    float: left;
+    margin-right: 1%;
+    width: 15%;
+}
