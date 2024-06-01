@@ -119,18 +119,13 @@ a{
 }
 
 .card {
-    width: calc(33.33% - 20px); /* 3 cards por linha, os 20px é o espaço de margem entre eles */
-    margin-bottom: 20px;
-    background-color: #005ef8; 
-    padding: 20px;
+    width: calc(25% - 20px); /* 4 cards por linha, os 5px é o espaço de margem entre eles */
+    margin-bottom: 20px; 
+    padding: 5px;
     box-sizing: border-box;
 }
 
-.col-6{
-    width: 50%;
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .card {
         width: calc(50% - 20px); /* 2 cards por linha em telas médias */
     }

@@ -123,3 +123,12 @@ a{
 .linksite{
     color: black;
 }
+
+.hiromi{
+    width: 100%;
+}
+
+td:not(.colunared){
+    line-height: 1.5;
+    font-size: 1em;
+}
