@@ -134,6 +134,7 @@ td:not(.colunared){
 }
 
 /* O Honrado */
+/* Meio */
 
 .container{
     position: relative;
@@ -141,8 +142,9 @@ td:not(.colunared){
 
 .center{
     position: absolute;
-    top: 50%;
-    width: 100%;
+    top: 15%;
+    width: 75%;
+    left: 15%;
     text-align: center;
     font-size: 18px;
 }
@@ -153,6 +155,42 @@ td:not(.colunared){
     opacity: 0.3;
 }
 
-.satoru{
-    width: 50%;
+/* Topo Esquerda */
+
+.topleft {
+    position: absolute;
+    width: 45%;
+    top: 5%;
+    left: 5%;
+    font-size: 18px;
+}
+
+/* Topo Direita */
+
+.topright {
+    position: absolute;
+    width: 45%;
+    top: 5%;
+    left: 75%;
+    font-size: 18px;
+}
+
+/* Baixo Direita */
+
+.bottomright {
+    position: absolute;
+    width: 45%;
+    bottom: 5%;
+    left: 75%;
+    font-size: 18px;
+}
+
+/* Baixo Esquerda */
+
+.bottomleft {
+    position: absolute;
+    width: 45%;
+    bottom: 5%;
+    left: 5%;
+    font-size: 18px;
 }
