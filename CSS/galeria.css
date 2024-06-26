@@ -86,13 +86,6 @@ a{
     text-decoration: none;
 }
 
-.linha{
-    display: flex;
-    flex-wrap: row wrap;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .col-3{
     width: 25%;
 }
