@@ -15,11 +15,17 @@
         <div class="logo">
             <img class="logojjk" src="img/logojjk.png">
         </div>
-        <nav>
-            <p>
-                <a href="https://arthurluz28.github.io./meuprimeirosite/index.html">Página Inicial</a>
-                <a href="https://arthurluz28.github.io./meuprimeirosite/o_honrado">O Honrado</a>
-            </p>
+        <nav id="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <li>
+                    <a href="https://arthurluz28.github.io./meuprimeirosite/index.html" onclick="document.getElementById('menu-toggle').click()">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="https://arthurluz28.github.io./meuprimeirosite/o_honrado" onclick="document.getElementById('menu-toggle').click()">O Honrado</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
