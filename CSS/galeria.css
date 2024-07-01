@@ -201,3 +201,38 @@ nav ul li label {
     width: 100%; 
    display: block;
 }
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        padding-right: 10px;
+        padding-bottom: 50px;
+    }
+    
+    nav ul {
+        display: none; /* Esconde o menu em telas menores */
+    }
+    
+    #menu-toggle:checked + .menu-icon + ul {
+        display: flex; /* Mostra o menu em telas menores quando o ícone é clicado */
+    }
+}
+
+/* Media Query para telas maiores */
+@media (min-width: 769px) {
+    .menu-icon {
+        display: none; /* Esconde o ícone de hambúrguer em telas maiores */
+    }
+    
+    nav ul {
+        display: flex; /* Mostra o menu em telas maiores */
+        flex-direction: row;
+        position: static;
+        background-color: transparent;
+    }
+    
+    nav ul li a {
+        padding: 10px 15px;
+    }
+}
