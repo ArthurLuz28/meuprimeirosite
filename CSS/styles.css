@@ -9,6 +9,15 @@ body {
     font-style: normal;
 }
 
+.section-title{
+    padding-top: 75px; 
+    margin-top: -75px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     background-color: transparent;
     padding: 3%;
